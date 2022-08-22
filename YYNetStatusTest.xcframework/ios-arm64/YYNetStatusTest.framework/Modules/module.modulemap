@@ -1,0 +1,11 @@
+framework module YYNetStatusTest {
+  umbrella header "YYNetStatusTest.h"
+
+  export *
+  module * { export * }
+}
+
+module YYNetStatusTest.Swift {
+    header "YYNetStatusTest-Swift.h"
+    requires objc
+}
